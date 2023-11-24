@@ -1,0 +1,242 @@
+[
+    {
+        "Area": "Ardougne",
+        "Dailies": [
+            {
+                "id": "AAAA",
+                "title": "POF",
+                "description": ""
+            }
+        ]
+    },
+    {
+        "Area": "Arc (Port Sarim)",
+        "Dailies": [
+            {
+                "id": "AAAB",
+                "title": "claiming arc supplies",
+                "description": ""
+            },
+            {
+                "id": "AAAC",
+                "title": "Ports",
+                "description": ""
+            }
+        ]
+    },
+    {
+        "Area": "Ambiguous",
+        "Dailies": [
+            {
+                "id": "AAAD",
+                "title": "claiming skilling outfit items",
+                "description": ""
+            },
+            {
+                "id": "AAAE",
+                "title": "JOT",
+                "description": ""
+            },
+            {
+                "id": "AAAF",
+                "title": "daily challenges",
+                "description": ""
+            },
+            {
+                "id": "AAAG",
+                "title": "buying bomb vials",
+                "description": ""
+            },
+            {
+                "id": "AAAH",
+                "title": "Runes",
+                "description": ""
+            },
+            {
+                "id": "AAAI",
+                "title": "Feathers / broad arrows",
+                "description": ""
+            },
+            {
+                "id": "AAAJ",
+                "title": "Bloodwood trees",
+                "description": ""
+            },
+            {
+                "id": "AAAK",
+                "title": "vials of water",
+                "description": ""
+            }
+        ]
+    },
+    {
+        "Area": "Community",
+        "Dailies": [
+            {
+                "id": "AAAL",
+                "title": "Travelling Merchant",
+                "description": ""
+            }
+        ]
+    },
+    {
+        "Area": "Wizards Tower",
+        "Dailies": [
+            {
+                "id": "AAAM",
+                "title": "Vis Wax",
+                "description": ""
+            },
+            {
+                "id": "AAAN",
+                "title": "Wicked Hood teleports + pure essence",
+                "description": ""
+            }
+        ]
+    },
+    {
+        "Area": "Prifddinas",
+        "Dailies": [
+            {
+                "id": "AAAO",
+                "title": "Coeden",
+                "description": ""
+            },
+            {
+                "id": "AAAP",
+                "title": "Gorajo",
+                "description": ""
+            },
+            {
+                "id": "AAAQ",
+                "title": "Sandstone (Ithell)",
+                "description": ""
+            },
+            {
+                "id": "AAAR",
+                "title": "Sandstone (Meilyr) (95 Dung)",
+                "description": ""
+            }
+        ]
+    },
+    {
+        "Area": "Mazcab",
+        "Dailies": [
+            {
+                "id": "AAAS",
+                "title": "Nemi forest",
+                "description": ""
+            },
+            {
+                "id": "AAAT",
+                "title": "Trinks Dailies",
+                "description": ""
+            }
+        ]
+    },
+    {
+        "Area": "Ooglog",
+        "Dailies": [
+            {
+                "id": "AAAU",
+                "title": "Meat packs",
+                "description": ""
+            },
+            {
+                "id": "AAAV",
+                "title": "Sandstone",
+                "description": ""
+            }
+        ]
+    },
+    {
+        "Area": "Desert",
+        "Dailies": [
+            {
+                "id": "AAAW",
+                "title": "Potato cactus",
+                "description": ""
+            },
+            {
+                "id": "AAAX",
+                "title": "Sandstone (Sophanem)",
+                "description": ""
+            }
+        ]
+    },
+    {
+        "Area": "Fremennik",
+        "Dailies": [
+            {
+                "id": "AAAY",
+                "title": "Yak hides",
+                "description": ""
+            },
+            {
+                "id": "AAAZ",
+                "title": "Kingdom favour",
+                "description": ""
+            }
+        ]
+    },
+    {
+        "Area": "Port Phasmatys",
+        "Dailies": [
+            {
+                "id": "AABA",
+                "title": "daily slime/bonemeal",
+                "description": ""
+            }
+        ]
+    },
+    {
+        "Area": "Tzhaar",
+        "Dailies": [
+            {
+                "id": "AABB",
+                "title": "claiming tokkul",
+                "description": ""
+            }
+        ]
+    },
+    {
+        "Area": "Um",
+        "Dailies": [
+            {
+                "id": "AABC",
+                "title": "Lupe",
+                "description": ""
+            }
+        ]
+    },
+    {
+        "Area": "Hets Oasis",
+        "Dailies": [
+            {
+                "id": "AABD",
+                "title": "Crystal Growth flowers",
+                "description": ""
+            },
+            {
+                "id": "AABE",
+                "title": "Filtration System",
+                "description": ""
+            }
+        ]
+    },
+    {
+        "Area": "Combat",
+        "Dailies": [
+            {
+                "id": "AABF",
+                "title": "Reaper Dailies",
+                "description": ""
+            },
+            {
+                "id": "AABG",
+                "title": "Raids",
+                "description": ""
+            }
+        ]
+    }
+]

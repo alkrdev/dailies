@@ -15,9 +15,8 @@ pnpm dev
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
 ## Credits / Helpful Contributors
-
-MazzRS
-Aetheryte
-Epthelyn
-Fafnir
-Hells Iron
+- MazzRS
+- Aetheryte
+- Epthelyn
+- Fafnir
+- Hells Iron

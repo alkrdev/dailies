@@ -70,81 +70,36 @@
         ]
     },
     {
+        "Area": "Catherby",
+        "Dailies": [
+            {
+                "id": "AABI",
+                "title": "Buy Seaweed and Pineapples",
+                "description": ""
+            }
+        ]
+    },
+    {
+        "Area": "Combat",
+        "Dailies": [
+            {
+                "id": "AABF",
+                "title": "Reaper Dailies",
+                "description": ""
+            },
+            {
+                "id": "AABG",
+                "title": "Raids",
+                "description": ""
+            }
+        ]
+    },
+    {
         "Area": "Community",
         "Dailies": [
             {
                 "id": "AAAL",
                 "title": "Travelling Merchant",
-                "description": ""
-            }
-        ]
-    },
-    {
-        "Area": "Wizards Tower",
-        "Dailies": [
-            {
-                "id": "AAAM",
-                "title": "Vis Wax",
-                "description": ""
-            },
-            {
-                "id": "AAAN",
-                "title": "Wicked Hood teleports + pure essence",
-                "description": ""
-            }
-        ]
-    },
-    {
-        "Area": "Prifddinas",
-        "Dailies": [
-            {
-                "id": "AAAO",
-                "title": "Coeden",
-                "description": ""
-            },
-            {
-                "id": "AAAP",
-                "title": "Gorajo",
-                "description": ""
-            },
-            {
-                "id": "AAAQ",
-                "title": "Sandstone (Ithell)",
-                "description": ""
-            },
-            {
-                "id": "AAAR",
-                "title": "Sandstone (Meilyr) (95 Dung)",
-                "description": ""
-            }
-        ]
-    },
-    {
-        "Area": "Mazcab",
-        "Dailies": [
-            {
-                "id": "AAAS",
-                "title": "Nemi forest",
-                "description": ""
-            },
-            {
-                "id": "AAAT",
-                "title": "Trinks Dailies",
-                "description": ""
-            }
-        ]
-    },
-    {
-        "Area": "Ooglog",
-        "Dailies": [
-            {
-                "id": "AAAU",
-                "title": "Meat packs",
-                "description": ""
-            },
-            {
-                "id": "AAAV",
-                "title": "Sandstone",
                 "description": ""
             }
         ]
@@ -180,11 +135,101 @@
         ]
     },
     {
+        "Area": "Hets Oasis",
+        "Dailies": [
+            {
+                "id": "AABD",
+                "title": "Crystal Growth flowers",
+                "description": ""
+            },
+            {
+                "id": "AABE",
+                "title": "Filtration System",
+                "description": ""
+            }
+        ]
+    },
+    {
+        "Area": "Karamja",
+        "Dailies": [
+            {
+                "id": "AABJ",
+                "title": "Claim Pineapples",
+                "description": ""
+            }
+        ]
+    },
+    {
+        "Area": "Mazcab",
+        "Dailies": [
+            {
+                "id": "AAAS",
+                "title": "Nemi forest",
+                "description": ""
+            },
+            {
+                "id": "AAAT",
+                "title": "Trinks Dailies",
+                "description": ""
+            }
+        ]
+    },
+    {
+        "Area": "Ooglog",
+        "Dailies": [
+            {
+                "id": "AAAU",
+                "title": "Meat packs",
+                "description": ""
+            },
+            {
+                "id": "AAAV",
+                "title": "Sandstone",
+                "description": ""
+            }
+        ]
+    },
+    {
         "Area": "Port Phasmatys",
         "Dailies": [
             {
                 "id": "AABA",
                 "title": "daily slime/bonemeal",
+                "description": ""
+            }
+        ]
+    },
+    {
+        "Area": "Prifddinas",
+        "Dailies": [
+            {
+                "id": "AAAO",
+                "title": "Coeden",
+                "description": ""
+            },
+            {
+                "id": "AAAP",
+                "title": "Gorajo",
+                "description": ""
+            },
+            {
+                "id": "AAAQ",
+                "title": "Sandstone (Ithell)",
+                "description": ""
+            },
+            {
+                "id": "AAAR",
+                "title": "Sandstone (Meilyr) (95 Dung)",
+                "description": ""
+            }
+        ]
+    },
+    {
+        "Area": "Taverley",
+        "Dailies": [
+            {
+                "id": "AABH",
+                "title": "Buying flies",
                 "description": ""
             }
         ]
@@ -210,31 +255,16 @@
         ]
     },
     {
-        "Area": "Hets Oasis",
+        "Area": "Wizards Tower",
         "Dailies": [
             {
-                "id": "AABD",
-                "title": "Crystal Growth flowers",
+                "id": "AAAM",
+                "title": "Vis Wax",
                 "description": ""
             },
             {
-                "id": "AABE",
-                "title": "Filtration System",
-                "description": ""
-            }
-        ]
-    },
-    {
-        "Area": "Combat",
-        "Dailies": [
-            {
-                "id": "AABF",
-                "title": "Reaper Dailies",
-                "description": ""
-            },
-            {
-                "id": "AABG",
-                "title": "Raids",
+                "id": "AAAN",
+                "title": "Wicked Hood teleports + pure essence",
                 "description": ""
             }
         ]

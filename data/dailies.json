@@ -4,7 +4,7 @@
         "Dailies": [
             {
                 "id": "AAAA",
-                "title": "POF",
+                "title": "Player Owned Farm",
                 "description": ""
             }
         ]
@@ -14,12 +14,12 @@
         "Dailies": [
             {
                 "id": "AAAB",
-                "title": "claiming arc supplies",
+                "title": "Claim Arc Supplies",
                 "description": ""
             },
             {
                 "id": "AAAC",
-                "title": "Ports",
+                "title": "Ports Voyages",
                 "description": ""
             }
         ]
@@ -29,42 +29,47 @@
         "Dailies": [
             {
                 "id": "AAAD",
-                "title": "claiming skilling outfit items",
+                "title": "Claim items from Modified Skilling Heads",
                 "description": ""
             },
             {
                 "id": "AAAE",
-                "title": "JOT",
+                "title": "Jack of Trades",
                 "description": ""
             },
             {
                 "id": "AAAF",
-                "title": "daily challenges",
+                "title": "Daily Challenges",
                 "description": ""
             },
             {
                 "id": "AAAG",
-                "title": "buying bomb vials",
+                "title": "Buy Bomb Vials",
                 "description": ""
             },
             {
                 "id": "AAAH",
-                "title": "Runes",
+                "title": "Buy Runes",
                 "description": ""
             },
             {
                 "id": "AAAI",
-                "title": "Feathers / broad arrows",
+                "title": "Buy Feathers",
+                "description": ""
+            },
+            {
+                "id": "AABK",
+                "title": "Buy Broad Arrows",
                 "description": ""
             },
             {
                 "id": "AAAJ",
-                "title": "Bloodwood trees",
+                "title": "Chop Bloodwood Trees",
                 "description": ""
             },
             {
                 "id": "AAAK",
-                "title": "vials of water",
+                "title": "Buy Vials of Water",
                 "description": ""
             }
         ]
@@ -124,12 +129,12 @@
         "Dailies": [
             {
                 "id": "AAAY",
-                "title": "Yak hides",
+                "title": "Buy Yak hides",
                 "description": ""
             },
             {
                 "id": "AAAZ",
-                "title": "Kingdom favour",
+                "title": "Replenish Kingdom Approval Rating",
                 "description": ""
             }
         ]
@@ -144,7 +149,7 @@
             },
             {
                 "id": "AABE",
-                "title": "Filtration System",
+                "title": "Check Filtration System",
                 "description": ""
             }
         ]
@@ -179,12 +184,12 @@
         "Dailies": [
             {
                 "id": "AAAU",
-                "title": "Meat packs",
+                "title": "Buy Meat packs",
                 "description": ""
             },
             {
                 "id": "AAAV",
-                "title": "Sandstone",
+                "title": "Sandstone (Ooglog)",
                 "description": ""
             }
         ]
@@ -194,7 +199,12 @@
         "Dailies": [
             {
                 "id": "AABA",
-                "title": "daily slime/bonemeal",
+                "title": "Claim Slime/Bonemeal",
+                "description": ""
+            },
+            {
+                "id": "AABL",
+                "title": "Check Fermenting Vat",
                 "description": ""
             }
         ]
@@ -204,12 +214,12 @@
         "Dailies": [
             {
                 "id": "AAAO",
-                "title": "Coeden",
+                "title": "Coerce Coeden",
                 "description": ""
             },
             {
                 "id": "AAAP",
-                "title": "Gorajo",
+                "title": "Gorajo Wildcard",
                 "description": ""
             },
             {
@@ -219,7 +229,7 @@
             },
             {
                 "id": "AAAR",
-                "title": "Sandstone (Meilyr) (95 Dung)",
+                "title": "Sandstone (Meilyr)",
                 "description": ""
             }
         ]
@@ -229,7 +239,7 @@
         "Dailies": [
             {
                 "id": "AABH",
-                "title": "Buying flies",
+                "title": "Buy Flies",
                 "description": ""
             }
         ]
@@ -239,7 +249,7 @@
         "Dailies": [
             {
                 "id": "AABB",
-                "title": "claiming tokkul",
+                "title": "Claim Tokkul",
                 "description": ""
             }
         ]
@@ -249,7 +259,7 @@
         "Dailies": [
             {
                 "id": "AABC",
-                "title": "Lupe",
+                "title": "Claim Necromancy supplies (Lupe)",
                 "description": ""
             }
         ]

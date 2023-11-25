@@ -97,18 +97,20 @@ export default function Home() {
 						);
 					})}
 				</div>
-				{hiddenDailies && <div className={styles.grid}>
-				---------------------------------------------------------------------------------------
-					<div className={styles.dailyBox}>
-						{hiddenDailies.map((daily) => {
-							return (
-								<div key={daily.title} className={styles.task} onClick={() => setHidden(daily, false)}>
-									{daily.title} - {daily.id}
-								</div>
-							);
-						})}
-					</div>
-				</div>}
+        <hr className={styles.divider}></hr>
+        <div className={styles.hiddenList}>
+          {hiddenDailies.length > 0 && <div className={styles.grid}>				
+            <div className={styles.dailyBox}>
+              {hiddenDailies.map((daily) => {
+                return (
+                  <div key={daily.title} className={styles.task} onClick={() => setHidden(daily, false)}>
+                    {daily.title}
+                  </div>
+                );
+              })}
+            </div>
+          </div>}
+        </div>
 			</main>
 		</>
 	);

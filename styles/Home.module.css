@@ -8,8 +8,9 @@
 
 .grid {
   display: flex;
-  flex-direction: column;
-  gap: 2rem;
+  gap: 2rem;  
+  max-width: 100%;
+  flex-wrap: wrap;
 }
 
 .dailyBox {
@@ -18,14 +19,20 @@
   background: #966e76;
   min-height: 200px;
   padding: 20px;
+  width: 340px;
 }
 
 .task {
   user-select: none;
-
 }
 
 .task:hover {
   cursor: pointer;
   background: rgb(71, 27, 35);
+}
+
+.divider {
+  margin: 30px 0;
+  width: 100%;
+  border-bottom: 1px solid #fff;
 }

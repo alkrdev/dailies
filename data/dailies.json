@@ -6,20 +6,10 @@
                 "id": "AAAA",
                 "title": "Player Owned Farm",
                 "description": ""
-            }
-        ]
-    },
-    {
-        "Area": "Arc (Port Sarim)",
-        "Dailies": [
-            {
-                "id": "AAAB",
-                "title": "Claim Arc Supplies",
-                "description": ""
             },
             {
-                "id": "AAAC",
-                "title": "Ports Voyages",
+                "id": "AABZ",
+                "title": "Pure Essence (Wizard Cromperty)",
                 "description": ""
             }
         ]
@@ -71,6 +61,56 @@
                 "id": "AAAK",
                 "title": "Buy Vials of Water",
                 "description": ""
+            },
+            {
+                "id": "AABP",
+                "title": "Treasure Hunter Keys",
+                "description": ""
+            },
+            {
+                "id": "AACC",
+                "title": "Book of Char",
+                "description": ""
+            },
+            {
+                "id": "AACH",
+                "title": "Guthixian Cache",
+                "description": ""
+            },
+            {
+                "id": "AACI",
+                "title": "Big Chinchompa",
+                "description": ""
+            },
+            {
+                "id": "AACJ",
+                "title": "Evil Tree",
+                "description": ""
+            },
+            {
+                "id": "AACK",
+                "title": "Sinkhole",
+                "description": ""
+            },
+            {
+                "id": "AACL",
+                "title": "Shooting Star",
+                "description": ""
+            },
+            {                
+                "id": "AACP",
+                "title": "Divine Locations",
+                "description": ""
+            }
+        ]
+    },
+    {
+        "Area": "Burgh-De-Rott",
+        "Dailies": [
+            {
+                "id": "AABW",
+                "title": "Collect Planks (Razmire)",
+                "description": ""
             }
         ]
     },
@@ -89,7 +129,7 @@
         "Dailies": [
             {
                 "id": "AABF",
-                "title": "Reaper Dailies",
+                "title": "Reaper Task",
                 "description": ""
             },
             {
@@ -120,6 +160,26 @@
             {
                 "id": "AAAX",
                 "title": "Sandstone (Sophanem)",
+                "description": ""
+            },
+            {
+                "id": "AABQ",
+                "title": "Heart of Gielinor Bounty",
+                "description": ""
+            },
+            {
+                "id": "AABX",
+                "title": "Desert Amulet Molten Glass",
+                "description": ""
+            },
+            {
+                "id": "AABY",
+                "title": "Rug Merchant Lost items",
+                "description": ""
+            },
+            {
+                "id": "AACO",
+                "title": "Soul Obelisk",
                 "description": ""
             }
         ]
@@ -165,6 +225,16 @@
         ]
     },
     {
+        "Area": "Lumbridge",
+        "Dailies": [
+            {
+                "id": "AABV",
+                "title": "Food Hamper (From Cook)",
+                "description": ""
+            }
+        ]
+    },
+    {
         "Area": "Mazcab",
         "Dailies": [
             {
@@ -175,6 +245,11 @@
             {
                 "id": "AAAT",
                 "title": "Trinks Dailies",
+                "description": ""
+            },
+            {
+                "id": "AACM",
+                "title": "Supply Run",
                 "description": ""
             }
         ]
@@ -195,6 +270,16 @@
         ]
     },
     {
+        "Area": "Piscatoris",
+        "Dailies": [
+            {
+                "id": "AACD",
+                "title": "Phoenix Lair",
+                "description": ""
+            }
+        ]
+    },
+    {
         "Area": "Port Phasmatys",
         "Dailies": [
             {
@@ -206,6 +291,39 @@
                 "id": "AABL",
                 "title": "Check Fermenting Vat",
                 "description": ""
+            }
+        ]
+    },
+    {
+        "Area": "Port Sarim",
+        "Dailies": [
+            {
+                "id": "AAAB",
+                "title": "Claim Arc Supplies",
+                "description": ""
+            },
+            {
+                "id": "AAAC",
+                "title": "Ports Voyages",
+                "description": ""
+            },
+            {
+                "id": "AABR",
+                "title": "Claimed Island Resources",
+                "description": ""
+            },
+            {
+                "id": "AABS",
+                "title": "Arc Contracts",
+                "description": ""
+            }
+        ],
+        "Weeklies": [            
+            {
+                "id": "AABO",
+                "title": "Pigs and Bacon",
+                "description": "You may collect raw bacon / pig familiar pouches from Eli Bacon on a weekly basis.",
+                "url": "https://runescape.wiki/w/Eli#Weekly_reward"
             }
         ]
     },
@@ -235,6 +353,31 @@
             {
                 "id": "AAAR",
                 "title": "Sandstone (Meilyr)",
+                "description": ""
+            },
+            {
+                "id": "AABT",
+                "title": "Crystal Motherlode Shards",
+                "description": ""
+            },
+            {
+                "id": "AABU",
+                "title": "Motherlode Maw",
+                "description": ""
+            },
+            {
+                "id": "AACF",
+                "title": "Serenity Post",
+                "description": ""
+            }
+        ]
+    },
+    {
+        "Area": "Seer's Village",
+        "Dailies": [
+            {
+                "id": "AACB",
+                "title": "Claim Flax",
                 "description": ""
             }
         ]
@@ -270,6 +413,21 @@
         ]
     },
     {
+        "Area": "Wilderness",
+        "Dailies": [
+            {
+                "id": "AACE",
+                "title": "Bork",
+                "description": ""
+            },
+            {
+                "id": "AACN",
+                "title": "Warbands",
+                "description": ""
+            }
+        ]
+    },
+    {
         "Area": "Wizards Tower",
         "Dailies": [
             {
@@ -280,6 +438,30 @@
             {
                 "id": "AAAN",
                 "title": "Wicked Hood teleports + pure essence",
+                "description": ""
+            },
+            {
+                "id": "AACG",
+                "title": "Runesphere",
+                "description": ""
+            }
+        ],
+        "Monthlies": [
+            {
+                "id": "AABN",
+                "title": "Giant Oyster",
+                "description": "The Giant Oyster is a monthly Distraction and Diversion within the sunken Tutorial Island that is accessible upon completion of Beneath Cursed Tides. Players can collect and catch items to feed to the Giant Oyster, receiving Fishing and Farming experience from doing so. Once fed, the Giant Oyster will close its mouth, preventing further feedings. The following month after being fed, the Giant Oyster can be checked, opening to reveal treasure inside for the player to collect.",
+                "url": "https://runescape.wiki/w/Giant_Oyster"
+                
+            }
+        ]
+    },
+    {
+        "Area": "Yanille",
+        "Dailies": [
+            {
+                "id": "AACA",
+                "title": "Buckets of Sand",
                 "description": ""
             }
         ]

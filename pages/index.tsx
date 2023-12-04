@@ -1,43 +1,27 @@
 import Head from 'next/head';
-import Image from 'next/image';
-import { Inter } from 'next/font/google';
 import styles from '@/styles/Home.module.css';
-
-import dailiesFromJson from '@/data/dailies.json';
 import { useEffect, useState } from 'react';
+import type { InferGetServerSidePropsType, GetServerSideProps } from 'next';
 
-interface DailySection {
-	Area: string;
-	Dailies: DailyTask[];
-}
+import { DailySection } from '../interfaces/daily-section.interface';
+import { DailyTask } from '../interfaces/daily-task.interface';
 
-interface DailyTask {
-	id: string;
-	title: string;
-	description: string;
-	hidden: boolean;
-}
+import MainGrid from '@/components/MainGrid';
+import HiddenList from '@/components/HiddenList';
 
-export default function Home() {
-	const [sections, setSections] = useState<DailySection[]>(
-		dailiesFromJson.map((section) => {
-			return {
-				Area: section.Area,
-				Dailies: section.Dailies.map((task) => {
-					return {
-						id: task.id,
-						title: task.title,
-						description: task.description,
-						hidden: false
-					};
-				})
-			};
-		})
-	);
+export const getServerSideProps = (async (context) => {
+	const res = await fetch('http://localhost:3000/api/dailies');
+	const dailies = await res.json();
+
+	return { props: { dailies } };
+}) satisfies GetServerSideProps<{ dailies: DailySection[] }>;
+
+export default function Home({ dailies }: InferGetServerSidePropsType<typeof getServerSideProps>) {
+	const [sections, setSections] = useState<DailySection[]>(dailies);
 	const [hiddenDailies, setHiddenDailies] = useState<DailyTask[]>([]);
 
-  const setHidden = (task: DailyTask, hidden: boolean) => {
-    const newSections = sections.map((section) => {
+	const setHidden = (task: DailyTask, hidden: boolean) => {
+		const newSections = sections.map((section) => {
 			const dailyToChange = section.Dailies.find((daily) => daily.id === task.id);
 
 			if (dailyToChange) dailyToChange.hidden = hidden;
@@ -46,27 +30,12 @@ export default function Home() {
 		});
 
 		setSections(newSections);
-  };
-
-	const sortByAreaString = (a: any, b: any) => {
-		const nameA = a.Area.toUpperCase(); // ignore upper and lowercase
-		const nameB = b.Area.toUpperCase(); // ignore upper and lowercase
-		if (nameA < nameB) {
-			return -1;
-		}
-		if (nameA > nameB) {
-			return 1;
-		}
-
-		// names must be equal
-		return 0;
 	};
 
 	useEffect(() => {
-		const hiddenDailies = 
-      sections.map((section) => section.Dailies.filter((task) => task.hidden)).flat();
+		const newHiddenDailies = sections.map((section) => section.Dailies.filter((task) => task.hidden)).flat();
 
-		setHiddenDailies(hiddenDailies);
+		setHiddenDailies(newHiddenDailies);
 	}, [sections]);
 
 	return (
@@ -77,40 +46,11 @@ export default function Home() {
 				<meta name='viewport' content='width=device-width, initial-scale=1' />
 				<link rel='icon' href='/favicon.ico' />
 			</Head>
-			<main className={styles.main}>
-				<div className={styles.grid}>
-					{sections.sort(sortByAreaString).map((section) => {
-						if (section.Dailies.every((task) => task.hidden)) return;
-
-						return (
-							<div className={styles.dailyBox} key={section.Area}>
-								<h2>{section.Area}</h2>
-								{section.Dailies.map((daily) => {
-									if (daily.hidden) return;
-									return (
-										<div key={daily.title} className={styles.task} onClick={() => setHidden(daily, true)}>
-											{daily.title}
-										</div>
-									);
-								})}
-							</div>
-						);
-					})}
-				</div>
-        <hr className={styles.divider}></hr>
-        <div className={styles.hiddenList}>
-          {hiddenDailies.length > 0 && <div className={styles.grid}>				
-            <div className={styles.dailyBox}>
-              {hiddenDailies.map((daily) => {
-                return (
-                  <div key={daily.title} className={styles.task} onClick={() => setHidden(daily, false)}>
-                    {daily.title}
-                  </div>
-                );
-              })}
-            </div>
-          </div>}
-        </div>
+			<main className={styles.main}>				
+				<hr className={styles.divider}></hr>
+				<MainGrid sections={sections} setHidden={setHidden} />
+				<hr className={styles.divider}></hr>
+				<HiddenList hiddenDailies={hiddenDailies} setHidden={setHidden} />
 			</main>
 		</>
 	);

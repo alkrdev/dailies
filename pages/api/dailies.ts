@@ -6,19 +6,23 @@ export default async function GET(
   req: NextApiRequest,
   res: NextApiResponse<DailySection[]>
 ) {
-  const dailies: DailySection[] = dailiesFromJson.map((section) => {
-    return {
-      Area: section.Area,
-      Dailies: section.Dailies.map((task) => {
-        return {
-          id: task.id,
-          title: task.title,
-          description: task.description,
-          hidden: false
-        };
-      })
-    };
-  })
+    console.log('GET /api/dailies')
 
-  res.status(200).json(dailies)
+    const dailies = dailiesFromJson.map((section) => {
+        return {
+        Area: section.Area,
+        Dailies: section.Dailies.map((task) => {
+            return {
+            id: task.id,
+            title: task.title,
+            description: task.description,
+            hidden: false
+            };
+        })
+        };
+    })
+
+    console.log(dailies)
+
+    res.status(200).json(dailies)
 }

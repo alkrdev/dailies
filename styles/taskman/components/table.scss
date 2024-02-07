@@ -1,0 +1,22 @@
+.table-wrapper {
+    @apply align-middle inline-block min-w-full shadow overflow-hidden;
+
+    table {
+        @apply min-w-full border-gray-600;
+        tr {
+            @apply shadow;
+            th {
+                @apply px-6 py-3 text-left text-xs leading-4 font-bold text-gray-300 uppercase tracking-wide whitespace-nowrap;
+            }
+            td {
+                @apply px-6 py-4 leading-5 text-gray-400 bg-gray-700 border-b-2 border-gray-800 text-sm;
+            }
+        }
+    }
+}
+
+@screen md {
+    .table-wrapper {
+        @apply rounded-lg;
+    }
+}

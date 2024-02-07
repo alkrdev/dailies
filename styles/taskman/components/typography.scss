@@ -1,0 +1,36 @@
+h1 {
+    @apply text-gray-500 text-2xl uppercase tracking-wide font-bold my-3;
+}
+
+h2 {
+    @apply text-gray-400 text-xl uppercase tracking-wide font-bold my-3;
+}
+
+h3:not([class]) {
+    @apply text-gray-500 text-lg uppercase tracking-wide font-bold my-3;
+}
+
+h4:not([class]) {
+    @apply text-gray-400 text-lg uppercase tracking-wide font-bold my-3;
+}
+
+p:not([class]) {
+    @apply my-3;
+}
+
+ol:not([class]) {
+    @apply list-decimal list-inside;
+}
+
+a:not([class]) {
+    @apply font-medium text-teal-400 transition duration-150 ease-in-out;
+    &:hover {
+        @apply text-teal-200;
+    }
+    &:focus {
+        @apply outline-none underline;
+    }
+}
+.font-variant-numeric-tabular-nums {
+    font-variant-numeric: tabular-nums;
+}

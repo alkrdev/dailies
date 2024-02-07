@@ -16,8 +16,8 @@ const MainGrid = (props: Props) => {
                 if (section.Dailies.every((task) => task.hidden)) return;
 
                 return (
-                    <div className={styles.dailyBox} key={section.Area}>
-                        <h2>{section.Area}</h2>
+                    <div className="px-4 py-8 bg-gray-900 shadow-2xl sm:rounded-lg sm:px-10 w-[380px]" key={section.Area}>
+                        <h1>{section.Area}</h1>
                         {section.Dailies.map((daily) => {
                             if (daily.hidden) return;
                             return (

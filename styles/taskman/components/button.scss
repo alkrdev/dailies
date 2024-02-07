@@ -1,0 +1,84 @@
+button:not(.no-default),
+a.button {
+    @apply uppercase inline-block justify-center px-3 py-2 text-sm font-medium text-white transition duration-150 ease-in-out border border-transparent rounded-md shadow-lg;
+    &.small {
+        @apply px-1 py-1 text-xs;
+    }
+    &.block {
+        @apply flex w-full;
+    }
+    &:hover {
+        @apply shadow-xl;
+    }
+    &.primary {
+        @apply bg-teal-600;
+        &:hover,
+        &:focus {
+            @apply bg-teal-500;
+        }
+        &:active {
+            @apply bg-teal-700;
+        }
+    }
+    &.danger {
+        @apply bg-red-600;
+        &:hover,
+        &:focus {
+            @apply bg-red-500;
+        }
+        &:active {
+            @apply bg-red-700;
+        }
+    }
+    &.success {
+        @apply bg-green-600;
+        &:hover,
+        &:focus {
+            @apply bg-green-500;
+        }
+        &:active {
+            @apply bg-green-700;
+        }
+    }
+    &.secondary {
+        @apply bg-gray-600;
+        &:hover,
+        &:focus {
+            @apply bg-gray-500;
+        }
+        &:active {
+            @apply bg-gray-700;
+        }
+    }
+    &.subtle {
+        @apply bg-gray-700;
+        &:hover,
+        &:focus {
+            @apply bg-gray-600;
+        }
+        &:active {
+            @apply bg-gray-800;
+        }
+    }
+    &:focus {
+        @apply outline-none;
+    }
+    &[disabled],
+    &.phx-click-loading,
+    &.disabled {
+        @apply opacity-50 pointer-events-none;
+    }
+}
+.btn-group {
+    @apply shadow flex;
+}
+.btn-group > button,
+.btn-group > .button {
+    @apply rounded-none shadow-none;
+    &:first-child {
+        @apply rounded-l;
+    }
+    &:last-child {
+        @apply rounded-r;
+    }
+}

@@ -1,0 +1,83 @@
+@tailwind base;
+
+input:invalid,
+textarea:invalid,
+select:invalid {
+    box-shadow: none;
+}
+
+@tailwind components;
+
+@import "./components/button.scss";
+@import "./components/alert.scss";
+@import "./components/input.scss";
+@import "./components/navbar.scss";
+@import "./components/table.scss";
+@import "./components/typography.scss";
+
+/**
+  * This injects all of Tailwind's utility classes, generated based on your
+  * config file.
+  */
+@tailwind utilities;
+
+.bg-gradient-blue-to-purple {
+    background-image: linear-gradient(122deg, #252f3f, #2d3748);
+}
+
+.font-variant-numeric-tabular-nums {
+    font-variant-numeric: tabular-nums;
+}
+
+.text-blurred {
+    filter: blur(5px);
+}
+
+@keyframes spinner {
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.spinner:before {
+    content: "";
+    box-sizing: border-box;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 20px;
+    height: 20px;
+    margin-top: -10px;
+    margin-left: -10px;
+    border-radius: 50%;
+    border: 2px solid #ccc;
+    border-top-color: #fff;
+    animation: spinner 0.6s linear infinite;
+}
+
+.loading-bar {
+    width: 1%;
+    transition: transform 1s ease-out;
+    &.opacity-100 {
+        transform: scaleX(101);
+    }
+}
+
+.masonry {
+    flex-flow: column wrap;
+    &::before,
+    &::after {
+        content: "";
+        flex-basis: 100%;
+        width: 0;
+        order: 2;
+    }
+    .item {
+        &:nth-child(2n + 1) {
+            order: 1;
+        }
+        &:nth-child(2n) {
+            order: 2;
+        }
+    }
+}

@@ -130,7 +130,8 @@
             {
                 "id": "AABF",
                 "title": "Reaper Task",
-                "description": ""
+                "description": "",
+                "taskRequired": "LNBJ"
             },
             {
                 "id": "AABG",

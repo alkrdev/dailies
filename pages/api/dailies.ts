@@ -1,6 +1,7 @@
 import type { NextApiRequest, NextApiResponse } from 'next'
 import dailiesFromJson from '@/data/dailies.json';
 import { DailySection } from '@/interfaces/daily-section.interface';
+import { DailyTask } from '@/interfaces/daily-task.interface';
 
 export default async function GET(
   req: NextApiRequest,
@@ -8,21 +9,22 @@ export default async function GET(
 ) {
     console.log('GET /api/dailies')
 
-    const dailies = dailiesFromJson.map((section) => {
+    const dailies: DailySection[] = dailiesFromJson.map((section) => {
         return {
-        Area: section.Area,
-        Dailies: section.Dailies.map((task) => {
-            return {
-            id: task.id,
-            title: task.title,
-            description: task.description,
-            hidden: false
-            };
-        })
+            Area: section.Area,
+            Dailies: section.Dailies.map((task: DailyTask) => {
+                const { id, title, description, taskRequired } = task;
+
+                return {
+                    id: id,
+                    title: title,
+                    description: description,
+                    taskRequired: taskRequired ?? undefined,
+                    hidden: false
+                };
+            })
         };
     })
-
-    console.log(dailies)
 
     res.status(200).json(dailies)
 }

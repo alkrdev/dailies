@@ -2,6 +2,7 @@ import Head from 'next/head';
 import styles from '@/styles/Home.module.css';
 import { useEffect, useState } from 'react';
 import type { InferGetServerSidePropsType, GetServerSideProps } from 'next';
+import { LOCAL_URL } from '@/constants/localurl.const';
 
 import { DailySection } from '../interfaces/daily-section.interface';
 import { DailyTask } from '../interfaces/daily-task.interface';
@@ -10,7 +11,7 @@ import MainGrid from '@/components/MainGrid';
 import HiddenList from '@/components/HiddenList';
 
 export const getServerSideProps = (async (context) => {
-	const res = await fetch('http://127.0.0.1:3000/api/dailies');
+	const res = await fetch(LOCAL_URL);
 	const dailies = await res.json();
 
 	return { props: { dailies } };

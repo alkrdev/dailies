@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-h1 {
+h2 {
     @apply text-gray-500 text-2xl uppercase tracking-wide font-bold my-3;
 }
 

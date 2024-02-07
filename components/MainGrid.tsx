@@ -17,7 +17,7 @@ const MainGrid = (props: Props) => {
 
                 return (
                     <div className="px-4 py-8 bg-gray-900 shadow-2xl sm:rounded-lg sm:px-10 w-[380px]" key={section.Area}>
-                        <h1>{section.Area}</h1>
+                        <h2 className="-mt-3 mb-3">{section.Area}</h2>
                         {section.Dailies.map((daily) => {
                             if (daily.hidden) return;
                             return (

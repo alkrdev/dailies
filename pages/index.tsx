@@ -47,7 +47,9 @@ export default function Home({ dailies }: InferGetServerSidePropsType<typeof get
 				<meta name='viewport' content='width=device-width, initial-scale=1' />
 				<link rel='icon' href='/favicon.ico' />
 			</Head>
-			<main className="py-6 mx-auto text-gray-100 max-w-7xl sm:px-6 lg:px-8">				
+			<main className="py-6 mx-auto text-gray-100 max-w-7xl sm:px-6 lg:px-8">		                
+                {/* <h1 className="">Daily Dismay</h1>
+                <p>Keep track of your dailies</p>		 */}
 				<MainGrid sections={sections} setHidden={setHidden} />
 				<hr className={styles.divider}></hr>
 				<HiddenList hiddenDailies={hiddenDailies} setHidden={setHidden} />

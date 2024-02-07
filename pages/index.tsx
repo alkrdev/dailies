@@ -10,7 +10,7 @@ import MainGrid from '@/components/MainGrid';
 import HiddenList from '@/components/HiddenList';
 
 export const getServerSideProps = (async (context) => {
-	const res = await fetch('http://localhost:3000/api/dailies');
+	const res = await fetch('http://127.0.0.1:3000/api/dailies');
 	const dailies = await res.json();
 
 	return { props: { dailies } };
